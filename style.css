@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    border: 4px solid rgb(136, 216, 8);
+    border: none;
+    position: relative;
+}
+ .navbar{
+    height: 16vh;
+    background-color: white;
+    opacity: 0.8;
+    border-top: 5px solid #fa2c25;
+    width: 100%;
+ }
+ .navbar-brand>img:hover{
+    cursor: pointer;
+ }
+.header:hover{
+   .prev{
+    opacity: 0.9;
+   }
+}
+.header:hover{
+   .next{
+    opacity: 0.9;
+   }
+}
+.prev{
+    background-color: black;
+    opacity: 0;
+    border: 1px solid;
+    width: 60px;
+    border: none;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+.prev:hover{
+    background-color: #fa2c25;
+    transition:all 0.4s ease-in;
+}
+.next:hover{
+    background-color: #fa2c25;
+    transition:all 0.4s ease-in;
+}
+.next{
+    background-color: black;
+    opacity: 0;
+    border: 1px solid;
+    width: 60px;
+    border: none;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+.contact{
+    color: black;
+    display: flex;
+}
+.contact>ul{
+    display: flex;
+    list-style-type: none;
+}
+.contact>ul>li{
+    border: 1px solid white;
+    padding: 12px;
+    margin-left: 3%;
+    border: none;
+}
+.contact>ul>li:hover{
+    cursor: pointer;
+    color: #fa2c25;
+    transition: all ease-in 0.3s;
+}
+.social{
+    color: black;
+    display: flex;
+    margin-left: 8%;
+}
+.social>ul{
+    display: flex;
+}
+.social>ul>li{
+    border: 1px solid white;
+    padding: 10px;
+    border: none;
+}
+.social li:hover{
+    cursor: pointer;
+    color: #fa2c25;
+    transition: all 0.3s ease-in;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+    left: 20%;
+    position: absolute;
+    border: 2px solid;
+    border: none;
+    width: 60vw;
+    height: 100vh;
+    color: white;
+}
+.content>span{
+    font-size: 5em;
+    font-family: "Metal", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.content>h2{
+    font-size: 7em;
+    font-weight: bold;
+    animation-delay: 0.3s;
+}
+.content>button{
+    font-size: small;
+    color: #fa2c25;
+    height: 6vh;
+    width: 10vw;
+    border: none;
+    margin-top: 5%;
+    border-radius: 8px;
+    animation-delay: 0.8s;
+}
+.content>button:hover{
+    background-color: #fa2c25;
+    color: white;
+    transition: all 0.3s ease-in;
+}
